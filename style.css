@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main>i{
+    font-size: 40px;
+    position: fixed;
+    top: 83%;
+    left: 92%;
+    z-index: 9999900009;
+    color: white;
+    padding: 8px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+#page1{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+#page1>img{
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    z-index: 99999999;
+}
+#nav1{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(248,246,237);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav1 h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+#nav2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-right: 30px;
+    color: white;
+}
+#nav2a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+#nav2a i{
+    font-size: 25px;
+    /* color: white; */
+}
+#nav2a h1{
+    font-size: 25px;
+    font-weight: 500;
+    /* color: white; */
+}
+#nav2c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+#nav2c h3{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    /* color: white; */
+}
+#page1center{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+#page1center h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+#page1center h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#page1center button{
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#page2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+#page2a{
+    width: 55%;
+    height: 70vh;
+    background-color: rgb(251,246,241);
+    position: relative;
+}
+#page2ahead{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#page2ahead h1{
+    font-size: 50px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#page2b{
+    width: 45%;
+    height: 70vh;
+    background-color: rgb(142, 130, 130);
+    position: relative;
+}
+#page2abody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    gap: 40px;
+    margin-top: 20px;
+}
+#page2abody1{
+    width: 80%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+#page2abody1 h1{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 23px;
+}
+#page2abody1 h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#page2abody1 i{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0;
+}
+#page2abody2{
+    width: 80%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+#page2abody2 h1{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 23px;
+}
+#page2abody2 h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#page2abody2 i{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0;
+}
+#page2abody3{
+    width: 80%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+#page2abody3 h1{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 23px;
+}
+#page2abody3 h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#page2abody3 i{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0;
+}
+#page2abody4{
+    width: 80%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+#page2abody4 h1{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 23px;
+}
+#page2abody4 h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#page2abody4 i{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0;
+}
+#p2img1{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    opacity: 0;
+    transition: all linear .5s;
+    z-index: 99;
+}
+#p2img2{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    opacity: 0;
+    transition: all linear .5s;
+    z-index: 999;
+}
+#p2img3{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    opacity: 0;
+    transition: all linear .5s;
+    z-index: 9999;
+}
+#p2img4{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    opacity: 1;
+    transition: all linear .5s;
+    z-index: 99999;
+}
+#page3{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(251,246,241);
+    position: relative;
+    overflow: hidden;
+}
+#page4{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(28,53,94);
+    padding: 60px 60px;
+    position: relative;
+    overflow: hidden;
+}
+#page4 p{
+    font-size: 70px;
+    color: white;
+    text-transform: capitalize;
+}
+#page4 span{
+    text-decoration: underline;
+}
+#page5{
+    width: 100%;
+    height: 82vh;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+#page5a{
+    width: 52%;
+    height: 82vh;
+    background-color: blueviolet;
+}
+#page5a img{
+    width: 100%;
+    height: 82vh;
+}
+#page5b{
+    width: 48%;
+    height: 82vh;
+    background-color: white;
+    padding: 0px 30px;
+}
+#page5b #p1{
+    position: relative;
+    font-size: 38px;
+    text-transform: capitalize;
+    top: 50px;
+}
+#page5b #p2{
+    position: relative;
+    font-size: 22px;
+    text-transform: capitalize;
+    top: 80px;
+}
+#page5b button{
+    position: relative;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+    top: 60%;
+}
+#page5b button:hover{
+    background-color: rgb(35, 33, 33);
+    color: white;
+}
+#page6{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+#page6a{
+    width: 42%;
+    height: 82vh;
+    padding-left: 40px;
+}
+#page6a h1{
+    position: relative;
+    font-size: 40px;
+    text-transform: capitalize;
+    width: 70%;
+    top: 50px;
+}
+#page6a p{
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 70%;
+    top: 100px;
+}
+#page6a button{
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 70%;
+    top: 50%;
+    left: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#page6a button:hover{
+    background-color: rgb(35, 33, 33);
+    color: white;
+}
+#page6b{
+    width: 58%;
+    height: 82vh;
+    background-color: aqua;
+}
+#page6b img{
+    width: 100%;
+    height: 82vh;
+}
+#page7{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    overflow: hidden;
+}
+#page7text{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 10%;
+    right: 5%;
+    align-items: center;
+}
+#page7text h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+#page7text i{
+    font-size: 50px;
+    color: white;
+}
+#page7 img{
+    width: 100%;
+    height: 100vh;
+}
+#page8{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(251,246,241);
+}
+#cards{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+.card1{
+    width: 25%;
+    height: 40vh;
+}
+.card1>h2{
+    position: relative;
+    font-size: 30px;
+    text-transform: capitalize;
+    top: 55%;
+    left: 10%;
+}
+.card1head{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    top: 60%;
+    left: 12%;
+}
+.card1head h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.card1head h1:hover{
+    color: rgb(239,87,70);
+    cursor: pointer;
+}
+.card1head i{
+    font-size: 60px;
+}
+.card1h2{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    top: 122%;
+    left: 8.7%;
+}
+.card1h2 h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.card{
+    width: 25%;
+    height: 40vh;
+    padding: 10px;
+}
+.card h2{
+    position: relative;
+    font-size: 17px;
+    text-transform: capitalize;
+    top: 6%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card h1{
+    position: relative;
+    font-size: 27px;
+    text-transform: capitalize;
+    top: 8%;
+    color: rgb(239,87,70);
+    font-weight: 450;
+    cursor: pointer;
+}
+.card img{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    top: 12%;
+}
+.card p{
+    position: relative;
+    width: 90%;
+    top: 15%;
+}
+.cardbottomnav{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: 17%;
+}
+.cardbottomnav h3{
+    font-size: 25px;
+}
+.cardbottomnav h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cardbottomnav i{
+    font-size: 30px;
+}
+#borderright1{
+    width: 1px;
+    height: 65vh;
+    background-color: black;
+    position: absolute;
+    left: 24%;
+}
+#borderright2{
+    width: 1px;
+    height: 65vh;
+    background-color: black;
+    position: absolute;
+    left: 49%;
+}
+#borderright3{
+    width: 1px;
+    height: 65vh;
+    background-color: black;
+    position: absolute;
+    left: 73%;
+}
+#borderright4{
+    width: 1px;
+    height: 65vh;
+    background-color: black;
+    position: absolute;
+    left: 99.8%;
+}
+#borderbottom{
+    position: absolute;
+    top: 99.8%;
+    width: 100%;
+    height: .5px;
+    background-color: black;
+}
+#page9{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(251,246,241);
+    position: relative;
+    overflow: hidden;
+}
+#page9>h3{
+    position: relative;
+    font-size: 25px;
+    text-transform: capitalize;
+    top: 35%;
+    left: 6%;
+}
+#page9>h1{
+    position: relative;
+    font-size: 45px;
+    text-transform: capitalize;
+    width: 45%;
+    top: 37%;
+    left: 6%;
+    color: rgb(51,51,51);
+    font-weight: 600;
+}
+#text{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    top: 45%;
+    left: 6%;
+}
+#text h2{
+    font-size: 37px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgb(51,51,51);
+}
+#text i{
+    font-size: 60px;
+}
+#page9>img{
+    position: relative;
+    width: 45%;
+    height: 80%;
+    top: -20%;
+    left: 50%;
+}
+#page10{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(251,246,241);
+    position: relative;
+    overflow: hidden;
+}
+#page10head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#page10head h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#page10heada{
+    display: flex;
+    gap: 15px;
+}
+#page10head a{
+    color: black;
+    text-transform: capitalize;
+}
+#page10body{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    cursor: pointer;
+}
+.page10card{
+    width: 100%;
+}
+.page10card h1{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 22px;
+    top: 6%;
+    left: 10%;
+}
+.page10card h2{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    top: 8%;
+    left: 10%;
+}
+.page10card h3{
+    width: 20%;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 12%;
+    left: 10%;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+.page10card h4{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    top: -9%;
+    left: 70%;
+}
+#bottomnav{
+    width: 120%;
+    height: 20%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#bottomnav h3{
+    position: relative;
+    border: none;
+    top: 40%;
+    left: 30%;
+}
+#p10borderright1{
+    width: 1px;
+    height: 62vh;
+    background-color: black;
+    position: absolute;
+    left: 32%;
+    top: 22.3%;
+}
+#p10borderright2{
+    width: 1px;
+    height: 62vh;
+    background-color: black;
+    position: absolute;
+    left: 66.7%;
+    top: 22.3%;
+}
+#p10borderright3{
+    width: 1px;
+    height: 62vh;
+    background-color: black;
+    position: absolute;
+    left: 99.8%;
+    top: 22.3%;
+}
+#page11{
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(251,246,241);
+    position: relative;
+    overflow: hidden;
+}
+#page11cards{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 150px;
+    left: 4%;
+    top: 15%;
+}
+.page11card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page11card h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+.cardbody{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.cardbody h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+#page11card4{
+    padding-left: 20px;
+}
+.page11card5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page11card5 h1{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+.card5body{
+    display: flex;
+    gap: 120px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.card5body h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.card5body i{
+    font-size: 30px;
+}
+#page11bottomnav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    padding-left: 60px;
+    top: 27%;
+}
+#page11bottomnav1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#page11bottomnav1 h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    
+}
+#page11bottomnav2{
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+#page11bottomnav2 h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+
